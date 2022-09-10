@@ -1,0 +1,72 @@
+body{
+    background-image: url('https://source.unsplash.com/1600x900/?weather');
+}
+
+header{
+    background-color: #f7f7f70c;
+}
+div.title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+div.title h1{
+    padding: 10px;
+}
+
+main.dashboard{
+    background-color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+div.recent-searches h2{
+    font-size: 1.2rem;
+}
+
+div.citylist{
+    margin-top: 20px;
+}
+
+div.city{
+    padding: 10px;
+}
+
+div.cityName{
+    background-color: rgb(117, 7, 7);
+    color: black;
+}
+div.currentWeather {
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+div.currentWeather h2,
+div.currentWeather h3 {
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+span#uv-index {
+    color: white;
+}
+
+div.fiveDay h2 {
+    font-size: 1.2rem;
+}
+
+div.fiveDay p {
+    font-size: .8rem;
+}
+
+div.fiveDay p.card-title {
+    font-weight: bold;
+    color: white;
+}
+
+.card {
+    background-color: #0276fd;
+}
+
+.text-muted {
+    color: white !important;
+}
