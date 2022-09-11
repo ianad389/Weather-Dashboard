@@ -70,7 +70,6 @@ $(document).ready(function () {
         });
     }
     
-    // Function to color the UV Index based on EPA color scale: https://www.epa.gov/sunsafety/uv-index-scale-0
     function setUVIndexColor(uvi) {
         if (uvi < 3) {
             return 'green';
@@ -150,10 +149,7 @@ $(document).ready(function () {
     }
  
     $('#search-btn').on('click', function (event) {
-        // Preventing the button from trying to submit the form
         event.preventDefault();
-
-        // Retrieving and scrubbing the city from the inputs
         let city = cityInput.val().trim();
         city = city.replace(' ', '%20');
 
@@ -165,8 +161,7 @@ $(document).ready(function () {
             searchWeather(queryURL);
         }
     }); 
-    
-    // Click handler for city buttons to load that city's weather
+    // created a button for city
     $(document).on("click", "button.city-btn", function (event) {
         let clickedCity = $(this).text();
         let foundCity = $.grep(pastCities, function (storedCity) {
