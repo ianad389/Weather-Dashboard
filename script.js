@@ -17,8 +17,8 @@ $(document).ready(function () {
 
    // Helper function to sort cities from https://www.sitepoint.com/sort-an-array-of-objects-in-javascript/
    function compare(a, b) {
-       const cityA = a.city.toUpperCase();
-       const cityB = b.city.toUpperCase();
+       var cityA = a.city.toUpperCase();
+       var cityB = b.city.toUpperCase();
 
        let comparison = 0;
        if (cityA > cityB) {
