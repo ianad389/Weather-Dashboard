@@ -2,8 +2,8 @@
 In this project my job was to create a weather dashboard that forecasts the weather 5 days in advanced. As well users can save the search that is in the localstorage.
 
 # About the project
-I used HTML, CSS, Javascript and Bootstrap!
-Within the code I followed a tutorial that helped me understand the functions in Javascript. As well on how to link api keys to retreive data about the weather. I also created anopenweather account to generate my api key.
+I used HTML, CSS, Javascript and Bootstrap! I also used unsplahed to get cool background images for the dashboard!
+Within the code I followed a tutorial that helped me understand the functions in Javascript. As well on how to link api keys to retreive data about the weather. I also created anopenweather account to generate my api key. 
 
 
 # Screenshots
