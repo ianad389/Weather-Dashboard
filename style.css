@@ -6,7 +6,7 @@ header{
     background-color: #f7f7f70c;
 }
 div.title{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -20,24 +20,24 @@ main.dashboard{
 }
 
 div.recent-searches h2{
-    font-size: 1.2rem;
+    font-size: 2.5rem;
 }
 
 div.citylist{
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 div.city{
-    padding: 10px;
+    padding: 30px;
 }
 
 div.cityName{
-    background-color: rgb(117, 7, 7);
-    color: black;
+    background-color: rgb(79, 58, 58);
+    color: rgb(255, 255, 255);
 }
 div.currentWeather {
     margin-bottom: 20px;
-    background-color: white;
+    background-color: rgba(93, 56, 56, 0.369);
 }
 
 div.currentWeather h2,
@@ -64,9 +64,12 @@ div.fiveDay p.card-title {
 }
 
 .card {
-    background-color: #0276fd;
+    background-color: #000000;
 }
 
 .text-muted {
     color: white !important;
+    padding: 2em;
+    border-radius: 30px;
+   
 }
