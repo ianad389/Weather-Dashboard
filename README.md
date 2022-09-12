@@ -37,10 +37,6 @@ https://github.com/jmasaviru
 Youtube:
 https://www.youtube.com/watch?v=59QMudgnzdg
 
-Github:
-https://github.com/jmasaviru/Weather-Dashboard
-
-
 # 🚀 About Me
 
 https://github.com/ianad389

@@ -17,10 +17,12 @@ div.title h1{
 main.dashboard{
     background-color: rgb(255, 255, 255);
     font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 div.recent-searches h2{
-    font-size: 2.5rem;
+    font-size: 30px;
+    font-family: sans-serif;
 }
 
 div.citylist{
