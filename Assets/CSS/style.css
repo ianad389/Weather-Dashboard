@@ -34,7 +34,7 @@ div.city{
 }
 
 div.cityName{
-    background-color: rgb(79, 58, 58);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 div.currentWeather {
@@ -74,4 +74,9 @@ div.fiveDay p.card-title {
     padding: 2em;
     border-radius: 30px;
    
+}
+.row{
+  font-family:Arial, Helvetica, sans-serif;
+  border: #000000;
+
 }

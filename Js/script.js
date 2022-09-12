@@ -143,7 +143,7 @@ $(document).ready(function () {
             let queryURL = buildURLFromId(pastCities[0].id);
             searchWeather(queryURL);
         } else {
-            let queryURL = buildURLFromInputs("Detroit");
+            let queryURL = buildURLFromInputs("San Francisco");
             searchWeather(queryURL);
         }
     }
@@ -174,8 +174,6 @@ $(document).ready(function () {
 
     loadCities();
     displayCities(pastCities);
-
-    
     displayLastSearchedCity();
 
 });
