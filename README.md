@@ -7,7 +7,7 @@ Within the code I followed a tutorial that helped me understand the functions in
 
 
 # Screenshots
-![App Screenshot](/Assets/Screen%20Shot%202022-09-12%20at%2012.12.05%20PM.png)
+![App Screenshot](/Assets/Screen%20Shot%202022-09-12%20at%2012.20.42%20PM.png)
 # Acceptance Criteria
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
